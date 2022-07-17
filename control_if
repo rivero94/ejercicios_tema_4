@@ -1,0 +1,18 @@
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println("Welcome to Online IDE!! Happy Coding :)");
+         int numero = 5;
+        
+        if ( numero < 0) { 
+            System.out.println("el número es negativo");
+        }
+        else if
+        ( numero > 0){
+            System.out.println("el número es positivo");
+        }
+        else {
+            System.out.println("el número es cero.");
+        }
+    }
+}
