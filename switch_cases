@@ -1,0 +1,26 @@
+public class Main
+{
+    public static void main(String[] args) {
+        var  estaciones = "primavera";
+         
+         switch (estaciones)
+         {
+             case "otoño":
+                 System.out.println("La estación actual es: " + estaciones);
+                  break;
+             case "invierno":
+                  System.out.println("La estación actual es: " + estaciones);
+                  break;
+             case "primavera":
+                  System.out.println("La estación actual es: " + estaciones);
+                   break;
+             case "verano":
+                  System.out.println("La estación actual es: " + estaciones);
+                   break;
+                   
+             default:
+                    System.out.println("No hay definida ninguna estación del año.");
+             
+         }
+         }
+}
